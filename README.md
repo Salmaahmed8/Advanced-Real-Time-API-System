@@ -30,3 +30,25 @@ Ensure the following tools and environments are installed:
    ```bash
    git clone https://github.com/yourusername/advanced-user-management-system.git
    cd advanced-user-management-system
+2. **Install Dependencies**
+   ```bash
+   npm install
+3. **Set Up Environment Variables**
+   - **Create a `.env` file** in the project’s root directory.
+   - **Add the following configurations** to the `.env` file:
+   ```env
+   PORT=4000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+4. **Run the Application**
+   ```bash
+   npm start
+   //The server will run on http://localhost:4000.
+
+## Technologies Used
+
+- **Node.js**: JavaScript runtime environment
+- **Express**: Web framework for Node.js
+- **MongoDB**: NoSQL database for efficient data storage
+- **Multer**: File upload middleware
+- **dotenv**: Environment variable management
