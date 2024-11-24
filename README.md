@@ -1,7 +1,7 @@
 # Advanced User Management and Real-Time API System
 
 ## Overview
-The **Advanced User Management and Real-Time API System** is a robust backend application developed using **Node.js** and **Express**. It provides advanced user management features, role-based access control, file handling, and secure API functionalities. This system is designed for scalability and ease of integration into larger projects.
+The **Advanced User Management and Real-Time API System** is a robust backend application developed using **Node.js** and **Express**. It provides advanced user management features, role-based access control, file handling, and secure API functionalities. 
 
 ## Features
 - **Users Model**: Comprehensive user management using MongoDB.
